@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Karla";
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: hsl(204, 43%, 93%);
+}
+
+main {
+    width: 48%;
+}
+
+.main-container {
+    padding: 2em;
+}
+
+.sub-container1 {
+    padding: 2em;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.sub-container2 {
+    display: flex;
+}
+
+.square {
+    width: 100%;
+    padding: 2em;
+    color: hsl(204, 43%, 93%);
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 5px;
+}
+
+.list {
+    background-color: hsl(179, 82%, 43%);
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    gap: 25px;
+    border-bottom-right-radius: 5px;
+}
+
+li {
+    font-size: smaller;
+    color: hsl(204, 43%, 93%);
+}
+ul {
+    line-height: 17px;
+}
+
+.sub-container1 h3 {
+    margin: 0.5em auto;
+    color: hsl(71, 73%, 54%);
+}
+
+.sub-container1 p {
+    color: hsl(205, 8%, 70%);
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    padding: 1em 1em;
+    border-radius: 5px;
+    color: hsl(204, 43%, 93%);
+    font-weight: 700;
+}
+
+#dollar {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1200px) {
+    main {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    main {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    main {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    main {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .sub-container2 {
+        flex-direction: column;
+    }
+    main {
+        width: 90%;
+    }
+    .signup {
+        border-bottom-left-radius: 0px;
+    }
+    
+    .list {
+        border-bottom-left-radius: 5px;
+    }
+}
