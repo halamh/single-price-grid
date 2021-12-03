@@ -19,6 +19,7 @@ body {
 
 main {
     width: 48%;
+    max-width: 1000px;
 }
 
 .main-container {
@@ -74,9 +75,10 @@ ul {
     line-height: 17px;
 }
 
-.sub-container1 h3 {
+.sub-container1 h2 {
     margin: 0.5em auto;
     color: hsl(71, 73%, 54%);
+    font-size: 20px;
 }
 
 .sub-container1 p {
